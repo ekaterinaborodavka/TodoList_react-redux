@@ -1,0 +1,46 @@
+.todo-list-item {
+  font-size: 1.25rem;
+  width: 85%;
+  margin: 0.5rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-list-item-button-wrapper{
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo-list-item-button {
+  width: 50%;
+  margin-left: 10%;
+}
+
+.todo-list-item-label {
+  line-height: 35px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.todo-list-item.done .todo-list-item-label {
+  text-decoration: line-through;
+}
+
+.todo-list-item.important .todo-list-item-label {
+  font-weight: bold;
+  color: steelblue;
+}
+
+.fa-check{
+  color: green;
+}
+
+.fa-trash-o{
+  color: brown;
+}
+
+.fa-exclamation{
+  color: blue;
+}

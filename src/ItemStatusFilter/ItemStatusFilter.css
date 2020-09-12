@@ -1,0 +1,23 @@
+.filter-button-active, .filter-button{
+    font-size: 0.9rem;
+    border: 0 solid transparent;
+    margin: 0.05em;
+    border-radius: 2px;
+    padding: 0.4rem;
+}
+
+.filter-button-active{
+    background-color: cornflowerblue;
+}
+
+.filter-button{
+    background-color: gray;
+}
+
+.filter-button-active:hover{
+    background-color: lavender;
+}
+
+.filter-button:hover{
+    background-color: lavender;
+}

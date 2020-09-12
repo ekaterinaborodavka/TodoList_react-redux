@@ -1,0 +1,19 @@
+.app-header {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .app-header h1 {
+    text-align: center;
+    width: 40%;
+    color: rgb(41, 63, 85);
+  }
+  
+  .app-header h2 {
+    text-align: center;
+    width: 30%;
+    font-size: 1.2rem;
+    color: grey;
+  }

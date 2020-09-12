@@ -1,0 +1,23 @@
+ .item-add-form {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.item-add-form input{
+    width: auto;
+    flex-grow: 0.4;
+    padding: .3rem;
+}
+
+.item-add-form-button{
+    width: 10%;
+    background-color: lightgreen;
+    border: 1 solid black;
+    border-radius: 2px;
+}
+
+.item-add-form-button:hover{
+    background-color: lavender;
+}

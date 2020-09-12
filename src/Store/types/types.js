@@ -1,0 +1,6 @@
+export const ADD_ITEM = 'ADD_ITEM';
+export const DELETE_ITEM = 'DELETE_ITEM';
+export const ON_TOGGLE_IMPORTANT = 'ON_TOGGLE_IMPORTANT';
+export const ON_TOGGLE_DONE = 'ON_TOGGLE_DONE';
+export const ON_SEARCH_CHANGE = 'ON_SEARCH_CHANGE';
+export const ON_FILTER_CHANCE = 'ON_FILTER_CHANCE';
